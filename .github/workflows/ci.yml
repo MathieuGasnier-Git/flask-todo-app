@@ -25,4 +25,4 @@ jobs:
         run: ruff check app.py
 
       - name: Run tests
-        run: pytest
+        run: python -m pytest
